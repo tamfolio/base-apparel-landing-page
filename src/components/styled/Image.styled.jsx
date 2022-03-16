@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
 export const Image = styled.div `
-    width: 25%;
+    width: 30%;
     height: 80vh;
 
     img{
-        width: 100%;
+        width: 90%;
         height: 80vh;
     }
 `

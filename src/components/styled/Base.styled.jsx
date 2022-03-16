@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Base = styled.div`
-    width: 45%;
+    width: 40%;
     background: url('./images/bg-pattern-desktop.svg');
     height: 80vh;
     background-color: #fff;
