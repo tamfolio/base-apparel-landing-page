@@ -6,7 +6,7 @@ export const LogoStyle = styled.img `
 
     @media(max-width: 700px){
         margin-top: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         margin-left: 30px;
     }
   `
