@@ -6,6 +6,7 @@ export const Email = styled.input`
     border: 1px solid  hsl(0, 36%, 70%);
     border-radius: 40px;
     margin-top: 10px;
+    outline: none;
 
     &::placeholder{
         font-size: 15px;
@@ -16,13 +17,11 @@ export const Email = styled.input`
     }
 
     &:focus{
-        border: 3px solid hsl(0, 93%, 68%);
+        border:1px solid hsl(0, 93%, 68%);
         outline: none;
     }
     @media(max-width: 700px){
         width: 250px;
-        display: flex;
-        align-self: center;
     }
 
 `
@@ -46,5 +45,9 @@ export const EmailContainer = styled.div`
 
     & > a:hover{
         background-color: hsl(0, 36%, 70%);
+    }
+
+    @media(max-width: 700px){
+        justify-content: center;
     }
 `
