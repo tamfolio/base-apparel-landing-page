@@ -8,4 +8,8 @@ export const Image = styled.div `
         width: 90%;
         height: 80vh;
     }
+
+    @media(max-width: 700px){
+        display: none;
+    }
 `

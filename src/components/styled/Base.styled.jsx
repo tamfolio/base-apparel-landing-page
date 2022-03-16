@@ -9,5 +9,13 @@ export const Base = styled.div`
     background-repeat:repeat;
     background-size: cover;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;   
+
+    @media(max-width: 700px){
+        width: 100%;
+        background: none;
+        margin: o;
+        padding: 0;
+        height: auto;
+    } 
 `

@@ -9,9 +9,6 @@ export const Flex = styled.div`
     padding-top: 50px;
     font-family: 'Josefin Sans', sans-serif;
 
-    & > img{
-        width:40%;
-    }
 
     & > h2{
         font-size: 40px;
@@ -35,8 +32,20 @@ export const Flex = styled.div`
     }
 
 
-    @media(max-width: ${({ theme }) => theme.mobile}) {
-        flex-direction: column;
-        text-align: center;
+    @media(max-width: 700px){
+        padding: 0;
+        
+
+        & > h2{
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        & > p{
+            text-align: center;
+            font-size: 14px;
+            line-height: 1.5;
+            padding: 0 10px;
+        }
     }
 `

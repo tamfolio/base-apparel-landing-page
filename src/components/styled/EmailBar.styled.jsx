@@ -19,4 +19,10 @@ export const Email = styled.input`
         border: 3px solid hsl(0, 93%, 68%);
         outline: none;
     }
+    @media(max-width: 700px){
+        width: 250px;
+        display: flex;
+        align-self: center;
+    }
+
 `

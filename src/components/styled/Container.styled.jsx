@@ -8,4 +8,10 @@ export const Container = styled.div `
     background-color: #333;
     margin: 0;
     padding: 0;
+
+    @media(max-width: 700px){
+        background-color: #fff;
+        flex-direction: column;
+        height: auto;
+    }
 `
